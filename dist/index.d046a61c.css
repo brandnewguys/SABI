@@ -218,7 +218,18 @@ a:focus-visible {
   will-change: transform;
   pointer-events: auto;
   margin: 0;
+  display: grid;
   position: relative;
+}
+
+.grid__item > p {
+  text-shadow: 1px 1px 6px #000;
+  align-self: end;
+  margin: 0;
+  padding: .6rem;
+  font-size: 65%;
+  display: flex;
+  position: fixed;
 }
 
 .grid__item-img {
